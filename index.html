@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Explore Elevate Auto Spa, a premium auto detailing website demo.">
+    <title>Elevate Auto Spa | Premium Detailing</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <header class="site-header">
+        <a class="logo" href="#">ELEVATE<span> AUTO SPA</span></a>
+
+        <button class="menu-toggle" type="button" aria-label="Open navigation" aria-expanded="false"
+            aria-controls="main-navigation">
+            Menu
+        </button>
+
+        <nav id="main-navigation" class="navigation" aria-label="Main navigation">
+            <a href="#services">Services</a>
+            <a href="#gallery">Gallery</a>
+            <a href="#pricing">Packages</a>
+            <a href="#contact" class="button button-small">Get in Touch</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero" aria-labelledby="hero-heading">
+            <div class="hero-content">
+                <p class="eyebrow">PRECISION DETAILING. EXCEPTIONAL CARE.</p>
+
+                <h1 id="hero-heading">
+                    Your car.<br>
+                    Elevated.
+                </h1>
+
+                <p class="hero-description">
+                    From daily drivers to weekend favorites, we bring out
+                    the best in every vehicle with meticulous detailing
+                    inside and out.
+                </p>
+
+                <div class="hero-actions">
+                    <a href="#pricing" class="button">Explore Packages</a>
+                    <a href="#services" class="button button-outline">
+                        Discover Our Services
+                    </a>
+                </div>
+
+                <div class="hero-highlights">
+                    <span>Careful craftsmanship</span>
+                    <span>Premium products</span>
+                    <span>Attention to every detail</span>
+                </div>
+            </div>
+
+            <div class="hero-visual">
+                <img src="images/hero.jpg" alt="Black sports car against a dark background" class="hero-image"
+                    fetchpriority="high">
+
+                <p class="image-caption">A higher standard of clean.</p>
+            </div>
+        </section>
+        <section id="services" class="services section">
+            <div class="section-heading">
+                <p class="eyebrow">THE DETAILS MAKE THE DIFFERENCE</p>
+                <h2>Expert care. Inside and out.</h2>
+                <p class="section-description">
+                    Thoughtful treatments for every surface, designed to
+                    make your vehicle feel like yours again.
+                </p>
+            </div>
+
+            <div class="services-grid">
+                <article class="service-card">
+                    <span class="service-number">01</span>
+                    <h3>Exterior Detailing</h3>
+                    <p>
+                        A careful hand wash, wheel cleaning, and paint
+                        protection for a clean, glossy finish.
+                    </p>
+                    <a href="#pricing">Explore packages <span aria-hidden="true">↗</span></a>
+                </article>
+
+                <article class="service-card">
+                    <span class="service-number">02</span>
+                    <h3>Interior Refresh</h3>
+                    <p>
+                        Thorough vacuuming, surface cleaning, and interior
+                        care for a cabin you’ll enjoy stepping into.
+                    </p>
+                    <a href="#pricing">Explore packages <span aria-hidden="true">↗</span></a>
+                </article>
+
+                <article class="service-card">
+                    <span class="service-number">03</span>
+                    <h3>Paint Enhancement</h3>
+                    <p>
+                        A polishing treatment that helps reduce light
+                        surface imperfections and restore shine.
+                    </p>
+                    <a href="#pricing">Explore packages <span aria-hidden="true">↗</span></a>
+                </article>
+            </div>
+        </section>
+        <section id="about" class="about section">
+            <div class="about-intro">
+                <p class="eyebrow">MORE THAN A CLEAN CAR</p>
+                <h2>Care you can see.<br>Details you can feel.</h2>
+            </div>
+
+            <div class="about-content">
+                <p class="about-lead">
+                    Every vehicle deserves a little extra attention.
+                </p>
+
+                <p>
+                    At Elevate Auto Spa, our approach is simple: take the
+                    time to understand your vehicle, choose the right
+                    treatment, and give every surface the care it deserves.
+                </p>
+
+                <p>
+                    Whether you’re refreshing your daily driver or preparing
+                    your weekend favorite for the road, we focus on the
+                    details that make getting behind the wheel feel special.
+                </p>
+
+                <a href="#contact" class="about-link">
+                    Let’s talk about your vehicle
+                    <span aria-hidden="true">↗</span>
+                </a>
+            </div>
+        </section>
+        <section id="gallery" class="gallery section">
+            <div class="section-heading">
+                <p class="eyebrow">A CLOSER LOOK</p>
+                <h2>Every angle deserves attention.</h2>
+                <p class="section-description">
+                    Explore the finishes and details that inspire our approach.
+                    Photos shown are illustrative demo imagery.
+                </p>
+            </div>
+
+            <div class="gallery-grid">
+                <figure class="gallery-item gallery-item-large">
+                    <img class="gallery-image" src="images/exterior.jpg"
+                        alt="Black sports car parked beside the waterfront" loading="lazy">
+                    <figcaption>
+                        <span>01 / EXTERIOR</span>
+                        A finish that stands out.
+                    </figcaption>
+                </figure>
+
+                <figure class="gallery-item">
+                    <img src="images/interior.jpg"
+                        alt="Luxury car interior with leather seaats and carbon fiber accents" class="gallery-image"
+                        loading="lazy">
+                    <figcaption>
+                        <span>02 / INTERIOR</span>
+                        Comfort in every detail.
+                    </figcaption>
+                </figure>
+
+                <figure class="gallery-item">
+                    <img src="images/detail.jpg" alt="Black alloy wheel with a red brake caliper" class="gallery-image"
+                        loading="lazy">
+                    <figcaption>
+                        <span>03 / FINISHING TOUCHES</span>
+                        Nothing overlooked.
+                    </figcaption>
+                </figure>
+            </div>
+        </section>
+        <section id="pricing" class="pricing section">
+            <div class="section-heading">
+                <p class="eyebrow">FIND YOUR FINISH</p>
+                <h2>A fresh start for every vehicle.</h2>
+                <p class="section-description">
+                    Illustrative service packages for this demo.
+                    Final quotes would depend on vehicle size and condition.
+                </p>
+            </div>
+
+            <div class="pricing-grid">
+                <article class="pricing-card">
+                    <h3>The Refresh</h3>
+                    <p class="package-description">A little care goes a long way.</p>
+                    <p class="package-price"><span>From</span> $89</p>
+
+                    <ul class="package-features">
+                        <li>Exterior hand wash and dry</li>
+                        <li>Wheel and tire cleaning</li>
+                        <li>Interior vacuum</li>
+                        <li>Window cleaning</li>
+                    </ul>
+
+                    <a href="#contact" class="button button-outline">
+                        Ask About The Refresh
+                    </a>
+                </article>
+
+                <article class="pricing-card pricing-card-featured">
+                    <p class="package-badge">INSIDE + OUT</p>
+                    <h3>The Signature</h3>
+                    <p class="package-description">A complete reset for your ride.</p>
+                    <p class="package-price"><span>From</span> $179</p>
+
+                    <ul class="package-features">
+                        <li>Everything in The Refresh</li>
+                        <li>Detailed interior cleaning</li>
+                        <li>Upholstery spot treatment</li>
+                        <li>Paint sealant application</li>
+                    </ul>
+
+                    <a href="#contact" class="button">
+                        Ask About The Signature
+                    </a>
+                </article>
+
+                <article class="pricing-card">
+                    <h3>The Elevation</h3>
+                    <p class="package-description">Extra attention. Exceptional finish.</p>
+                    <p class="package-price"><span>From</span> $299</p>
+
+                    <ul class="package-features">
+                        <li>Everything in The Signature</li>
+                        <li>Paint decontamination</li>
+                        <li>Single-stage paint enhancement</li>
+                        <li>Exterior trim dressing</li>
+                    </ul>
+
+                    <a href="#contact" class="button button-outline">
+                        Ask About The Elevation
+                    </a>
+                </article>
+            </div>
+        </section>
+        <section id="faq" class="faq section">
+            <div class="section-heading">
+                <p class="eyebrow">BEFORE YOUR VISIT</p>
+                <h2>A few helpful details.</h2>
+                <p class="section-description">
+                    Common questions about our sample detailing services.
+                </p>
+            </div>
+
+            <div class="faq-list">
+                <article class="faq-item">
+                    <h3>
+                        <button class="faq-question" type="button" id="faq-question-1" aria-expanded="true"
+                            aria-controls="faq-answer-1">
+                            How long does a detail take?
+                            <span class="faq-icon" aria-hidden="true">−</span>
+                        </button>
+                    </h3>
+
+                    <div class="faq-answer" id="faq-answer-1" aria-labelledby="faq-question-1">
+                        <p>
+                            Timing depends on your package, vehicle size, and
+                            condition. We would confirm an estimated completion
+                            time before your appointment.
+                        </p>
+                    </div>
+                </article>
+
+                <article class="faq-item">
+                    <h3>
+                        <button class="faq-question" type="button" id="faq-question-2" aria-expanded="true"
+                            aria-controls="faq-answer-2">
+                            Which package should I choose?
+                            <span class="faq-icon" aria-hidden="true">−</span>
+                        </button>
+                    </h3>
+
+                    <div class="faq-answer" id="faq-answer-2" aria-labelledby="faq-question-2">
+                        <p>
+                            The Refresh covers routine upkeep, The Signature
+                            adds deeper interior care, and The Elevation includes
+                            paint enhancement. We would help you choose based
+                            on your vehicle and goals.
+                        </p>
+                    </div>
+                </article>
+
+                <article class="faq-item">
+                    <h3>
+                        <button class="faq-question" type="button" id="faq-question-3" aria-expanded="true"
+                            aria-controls="faq-answer-3">
+                            Can detailing remove every scratch?
+                            <span class="faq-icon" aria-hidden="true">−</span>
+                        </button>
+                    </h3>
+
+                    <div class="faq-answer" id="faq-answer-3" aria-labelledby="faq-question-3">
+                        <p>
+                            Paint enhancement can reduce some light surface
+                            imperfections. Deep scratches may require additional
+                            repair, so an inspection would help set expectations.
+                        </p>
+                    </div>
+                </article>
+
+                <article class="faq-item">
+                    <h3>
+                        <button class="faq-question" type="button" id="faq-question-4" aria-expanded="true"
+                            aria-controls="faq-answer-4">
+                            Can I book through this website?
+                            <span class="faq-icon" aria-hidden="true">−</span>
+                        </button>
+                    </h3>
+
+                    <div class="faq-answer" id="faq-answer-4" aria-labelledby="faq-question-4">
+                        <p>
+                            This is a portfolio demo for a fictional business.
+                            Bookings and payments are not available.
+                        </p>
+                    </div>
+                </article>
+            </div>
+        </section>
+        <section id="contact" class="contact section">
+            <div class="contact-panel">
+                <div class="contact-content">
+                    <p class="eyebrow">YOUR NEXT CHAPTER STARTS HERE</p>
+                    <h2>Ready for a<br>fresh impression?</h2>
+
+                    <p class="section-description">
+                        A clean finish. A comfortable cabin.
+                        A little more pride in every drive.
+                    </p>
+
+                    <p class="demo-notice">
+                        Elevate Auto Spa is a fictional business.
+                        This website demonstrates our Premium landing page package.
+                    </p>
+                </div>
+
+                <div class="contact-action">
+                    <p class="eyebrow">BUILT BY LUXESITESTUDIO</p>
+                    <h3>Want a website like this?</h3>
+
+                    <p>
+                        Give your business a polished online home with a
+                        responsive landing page designed around your brand.
+                    </p>
+
+                    <a href="https://www.fiverr.com/s/L34PAV0" class="button" target="_blank" rel="noopener noreferrer">
+                        Explore My Fiverr Gig
+                        <span class="external-link-note">(opens in a new tab)</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <p>&copy; 2026 Elevate Auto Spa. Fictional business.</p>
+        <p>Website demo by LuxeSiteStudio.</p>
+    </footer>
+</body>
+
+</html>
